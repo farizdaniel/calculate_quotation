@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengiraan Insurans Kenderaan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen flex items-center justify-center p-4">
+
+  <div class="w-full max-w-md mx-auto text-center">
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">Pilih Jenis Kenderaan</h1>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <a href="kira_insurans.php?jenis=motosikal" class="bg-blue-500 hover:bg-blue-600 text-white py-4 px-6 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition duration-300">
+        🏍️ Motosikal
+      </a>
+      <a href="cc_kereta.php?jenis=kereta" class="bg-green-500 hover:bg-green-600 text-white py-4 px-6 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition duration-300">
+        🚗 Kereta
+      </a>
+      <a href="kira_insurans.php?jenis=van" class="bg-yellow-500 hover:bg-yellow-600 text-white py-4 px-6 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition duration-300">
+        🚐 Van
+      </a>
+      <a href="kira_insurans.php?jenis=lori" class="bg-red-500 hover:bg-red-600 text-white py-4 px-6 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition duration-300">
+        🚛 Lori
+      </a>
+      <a href="kira_insurans.php?jenis=teksi" class="bg-purple-500 hover:bg-purple-600 text-white py-4 px-6 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition duration-300 col-span-full sm:col-span-2">
+        🚕 Teksi
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
